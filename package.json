@@ -1,5 +1,5 @@
 {
-  "name": "email-verifier",
+  "name": "jwt-email-verifier",
   "version": "1.0.0",
   "description": "A lightweight email verification library using JWT and Nodemailer.",
   "type": "module",
@@ -15,7 +15,9 @@
   "scripts": {
     "start": "node src/index.js",
     "server": "node -r dotenv/config dev/server.js",
-    "usage": "node -r dotenv/config dev/usage.js"
+    "usage": "node -r dotenv/config dev/usage.js",
+    "test": "echo \"No tests specified\" && exit 0",
+    "prepublishOnly": "npm test"
   },
   "dependencies": {
     "jsonwebtoken": "^9.0.2",
@@ -27,11 +29,27 @@
     "express": "^5.1.0"
   },
   "keywords": [
-    "email",
-    "verification",
-    "jwt",
-    "nodemailer"
+  "email",
+  "verification",
+  "jwt",
+  "nodemailer",
+  "email-verification",
+  "token",
+  "auth",
+  "authentication",
+  "smtp"
   ],
-  "author": "Your Name",
-  "license": "MIT"
+  "author": "MM Salman Faris",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mmsalmanfaris/JWT-Email-Verifier.git"
+  },
+  "homepage": "https://github.com/mmsalmanfaris/JWT-Email-Verifier#readme",
+  "bugs": {
+    "url": "https://github.com/mmsalmanfaris/JWT-Email-Verifier/issues"
+  },
+  "engines": {
+    "node": ">=14.0.0"
+  }
 }

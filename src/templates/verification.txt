@@ -1,4 +1,4 @@
-Welcome! Here are the contents for the file: /email-verifier/email-verifier/src/templates/verification.txt
+Welcome! Here are the contents for the file: /jwt-email-verifier/jwt-email-verifier/src/templates/verification.txt
 
 Welcome to our service!
 
