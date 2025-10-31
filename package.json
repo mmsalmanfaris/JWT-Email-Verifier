@@ -1,0 +1,37 @@
+{
+  "name": "email-verifier",
+  "version": "1.0.0",
+  "description": "A lightweight email verification library using JWT and Nodemailer.",
+  "type": "module",
+  "files": [
+    "src",
+    "README.md",
+    "LICENSE"
+  ],
+  "main": "src/index.js",
+  "jest": {
+    "testEnvironment": "node"
+  },
+  "scripts": {
+    "start": "node src/index.js",
+    "server": "node -r dotenv/config dev/server.js",
+    "usage": "node -r dotenv/config dev/usage.js"
+  },
+  "dependencies": {
+    "jsonwebtoken": "^9.0.2",
+    "nodemailer": "^7.0.10"
+  },
+  "devDependencies": {
+    "jest": "^27.0.6",
+    "dotenv": "^10.0.0",
+    "express": "^5.1.0"
+  },
+  "keywords": [
+    "email",
+    "verification",
+    "jwt",
+    "nodemailer"
+  ],
+  "author": "Your Name",
+  "license": "MIT"
+}

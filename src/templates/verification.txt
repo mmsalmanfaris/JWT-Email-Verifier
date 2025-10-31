@@ -1,0 +1,9 @@
+Welcome! Here are the contents for the file: /email-verifier/email-verifier/src/templates/verification.txt
+
+Welcome to our service!
+
+Please verify your email address by clicking the link below:
+
+{verificationLink}
+
+If you did not request this email, please ignore it.
