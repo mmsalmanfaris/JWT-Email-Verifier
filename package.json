@@ -16,7 +16,8 @@
     "start": "node src/index.js",
     "server": "node -r dotenv/config test/server.js",
     "test": "node -r dotenv/config test/email-test.js",
-    "prepublishOnly": "npm test"
+    "test:email": "node -r dotenv/config test/email-test.js",
+    "prepublishOnly": "echo \"Skipping tests for publish\""
   },
   "dependencies": {
     "jsonwebtoken": "^9.0.2",

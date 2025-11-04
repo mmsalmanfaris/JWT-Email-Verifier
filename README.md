@@ -2,6 +2,8 @@
 
 This project is a lightweight email verification library built with Node.js, utilizing JSON Web Tokens (JWT) for secure token generation and Nodemailer for sending verification emails. 
 
+![JWT Email Verifier Banner](assets/image.png)
+
 ## Features
 
 - Generate JWT tokens for email verification.
