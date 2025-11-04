@@ -14,9 +14,8 @@
   },
   "scripts": {
     "start": "node src/index.js",
-    "server": "node -r dotenv/config dev/server.js",
-    "usage": "node -r dotenv/config dev/usage.js",
-    "test": "echo \"No tests specified\" && exit 0",
+    "server": "node -r dotenv/config test/server.js",
+    "test": "node -r dotenv/config test/email-test.js",
     "prepublishOnly": "npm test"
   },
   "dependencies": {
