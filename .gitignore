@@ -16,6 +16,7 @@ pnpm-lock.yaml
 coverage/
 *.lcov
 .nyc_output
+test/*.log
 
 # IDE and Editor
 .vscode/

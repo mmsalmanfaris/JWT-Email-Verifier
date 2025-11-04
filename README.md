@@ -6,7 +6,9 @@
 [![Node.js Version](https://img.shields.io/node/v/jwt-email-verifier.svg)](https://nodejs.org)
 [![GitHub repo](https://img.shields.io/badge/github-repo-blue.svg)](https://github.com/mmsalmanfaris/JWT-Email-Verifier)
 
-A lightweight, secure email verification library for Node.js that uses JWT (JSON Web Tokens) for token generation and Nodemailer for sending verification emails.
+![JWT Email Verifier Banner](assets/image.png)
+
+## Features
 
 ## ✨ Features
 
